@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 
-app.get('/',(req,res)=>{
+app.get('/health',(req,res)=>{
     res.send('Everything in backend is working fine !')
 })
 
